@@ -10,8 +10,11 @@ namespace DatesAndTimes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            DateTime myValue = DateTime.Now;
+            Console.WriteLine(myValue.ToString() );
+
+            Console.ReadLine();
+
         }
     }
 }
